@@ -75,7 +75,6 @@ img {
 }
 
 .header-list li {
-  position: relative;
   margin-left: 50px;
 }
 
@@ -97,6 +96,7 @@ img {
 }
 
 .header-link {
+  position: relative;
   font-weight: 500;
   line-height: 1.2px;
   letter-spacing: 0.02em;
@@ -107,7 +107,7 @@ img {
   position: absolute;
   content: '';
   display: inline-block;
-  top: 49px;
+  top: 46px;
   left: 0;
   width: 100%;
   height: 4px;
