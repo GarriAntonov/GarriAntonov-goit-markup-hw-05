@@ -96,10 +96,22 @@ img {
 }
 
 .header-link {
+  position: relative;
   font-weight: 500;
   line-height: 1.2px;
   letter-spacing: 0.02em;
   color: var(--color-two);
+}
+
+.header-link.current::after {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  bottom: -1.5%;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--color-three);
 }
 
 .header-list .current {
@@ -109,16 +121,6 @@ img {
 .header-list :hover,
 .header-list :focus {
   color: var(--color-three);
-}
-
-.header-link.current::after {
-  position: absolute;
-  content: '';
-
-  width: 48px;
-  height: 4px;
-  border-radius: 2px;
-  background: var(--color-three);
 }
 
 .mail,
