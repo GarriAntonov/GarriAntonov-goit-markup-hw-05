@@ -100,7 +100,7 @@ img {
   padding-bottom: 32px;
   padding-top: 32px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.2px;
   letter-spacing: 0.02em;
   color: var(--color-two);
 }
@@ -108,7 +108,7 @@ img {
 .header-link.current::after {
   position: absolute;
   content: '';
-  bottom: -2px;
+  bottom: -1.5%;
   left: 0;
   width: 100%;
   height: 4px;
@@ -123,8 +123,8 @@ img {
 .header-list :hover,
 .header-list :focus {
   transition-property: color;
-  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
   color: var(--color-three);
 }
 
@@ -151,8 +151,8 @@ img {
 .phone:hover,
 .phone:focus {
   transition-property: fill, color;
-  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
   fill: var(--color-three);
   color: var(--color-three);
 }
@@ -389,9 +389,9 @@ img {
 
 .client-link:hover,
 .client-link:focus {
-  transition-property: color, border;
-  transition-duration: 250ms;
+  transition-property: border, color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
   color: var(--color-three);
   border: 1px solid var(--color-three);
 }
@@ -444,8 +444,8 @@ img {
 .footer-adress:hover,
 .footer-adress:focus {
   transition-property: color;
-  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
   color: var(--color-three);
 }
 
@@ -461,8 +461,8 @@ img {
 .footer-tel:hover,
 .footer-tel:focus {
   transition-property: color;
-  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
   color: var(--color-three);
 }
 
@@ -492,9 +492,9 @@ img {
 
 .socials-link:hover,
 .socials-link:focus {
-  transition-property: background-color, color;
-  transition-duration: 250ms;
+  transition-property: color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
   background-color: var(--color-three);
   color: var(--background-main);
 }
@@ -523,8 +523,8 @@ img {
 .works-item:hover,
 .works-item:focus {
   transition-property: box-shadow;
-  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -548,9 +548,9 @@ img {
 
 .works-item:hover,
 .works-item:focus {
-  transition-property: color, background-color;
-  transition-duration: 250ms;
+  transition-property: background-color, color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
   color: var(--background-main);
   background-color: var(--color-three);
 }
@@ -569,8 +569,8 @@ img {
 
 .works-list > li:hover {
   transition-property: box-shadow;
-  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
