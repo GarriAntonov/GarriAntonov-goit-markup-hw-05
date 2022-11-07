@@ -110,7 +110,7 @@ img {
 .header-link.current::after {
   position: absolute;
   content: '';
-  bottom: -1.5%;
+  bottom: -1px;
   left: 0;
   width: 100%;
   height: 4px;
@@ -259,13 +259,18 @@ img {
 
 .button-close {
   position: absolute;
-  left: 8px;
+  top: 8px;
   right: 8px;
   width: 30px;
   height: 30px;
   border-radius: 50%;
   background: var(--background-main);
   border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.close-svg {
+  position: absolute;
+  transform: translate(-50%, -50%);
 }
 
 .benefits {
